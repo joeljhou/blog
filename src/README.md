@@ -3,7 +3,8 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-heroImage: /logo.svg
+heroImage: /head.png
+heroImageDark: /head.png
 heroText: Lowrie's Blog
 heroFullScreen: true
 tagline: 当坚持成为一种热爱，极致成为一种精神，那么成功就是一种必然

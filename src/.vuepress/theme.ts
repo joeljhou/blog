@@ -4,6 +4,10 @@ import sidebar from "./sidebar.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
+
+  // 网页标签图标
+  favicon: "favicon.ico",
+
   hostname: "https://mister-hope.github.io",
 
   author: {
@@ -13,7 +17,8 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  // 导航栏图标,个人介绍图标
+  logo: "head.png",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
