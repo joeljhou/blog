@@ -4,9 +4,9 @@ layout: BlogHome
 icon: home
 title: 博客主页
 heroImage: /logo.svg
-heroText: 你博客的名称
+heroText: Lowrie's Blog
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 当坚持成为一种热爱，极致成为一种精神，那么成功就是一种必然
 projects:
   - icon: project
     name: 项目名称
