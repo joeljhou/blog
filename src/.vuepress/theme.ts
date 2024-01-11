@@ -61,7 +61,7 @@ export default hopeTheme({
       QQ: "https://example.com",
       Qzone: "https://example.com",
       Reddit: "https://example.com",
-      Rss: "https://example.com",
+      Rss: "./rss.xml",
       Steam: "https://example.com",
       Twitter: "https://example.com",
       Wechat: "https://example.com",
@@ -86,6 +86,11 @@ export default hopeTheme({
 
   plugins: {
     blog: true,
+
+    // Feed生成器-vuepress-plugin-feed2
+    feed: {
+      rss: true,
+    },
 
     // install @waline/client before enabling it
     // WARNING: This is a test server for demo only.
